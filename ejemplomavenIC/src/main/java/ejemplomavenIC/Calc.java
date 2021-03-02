@@ -23,7 +23,7 @@ public class Calc {
 	public Integer multiplicar() {
 		return this.a * this.b;
 	}
-
+	//Dividir
 	public Integer dividir() {
 		
 		return this.a/this.b;
