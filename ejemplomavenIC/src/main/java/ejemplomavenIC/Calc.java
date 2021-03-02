@@ -19,7 +19,7 @@ public class Calc {
 		
 		return this.a - this.b;
 	}
-
+	//Multiplicar
 	public Integer multiplicar() {
 		return this.a * this.b;
 	}
