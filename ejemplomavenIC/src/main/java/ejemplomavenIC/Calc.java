@@ -14,7 +14,7 @@ public class Calc {
 		
 		return this.a + this.b;
 	}
-
+	//Restar
 	public Integer restar() {
 		
 		return this.a - this.b;
