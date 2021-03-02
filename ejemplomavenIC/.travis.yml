@@ -3,4 +3,4 @@ jdk:
   - openjdk8
   - openjdk11
 languaje: java
-script: mvn test -f ejemplomavenIC/pom.xml
+script: mvn test
