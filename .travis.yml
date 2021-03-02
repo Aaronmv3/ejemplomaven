@@ -3,8 +3,8 @@ addons:
   sonarcloud:
     token: ${SONAR_TOKEN}
 jdk:
-  - openjdk8
+  - openjdk11
 languaje: java
 script: 
   -mvn test -f ejemplomavenIC/pom.xml
-  -sonar-scanner -Dsonar.login=${SONAR_TOKEN}
+  -sonar-scanner -Dsonar.login=${SONAR_TOKEN} -Dsonar.organization=aaronmv3 -Dsonar.proyectKJey=ejemploIC
